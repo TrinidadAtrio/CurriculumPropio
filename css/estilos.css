@@ -8,6 +8,7 @@ a{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
+    color: #fff;
 }
 a:visited{
     color: white;
@@ -68,9 +69,6 @@ li, dd, dt{
 span{
     font-weight: 500;
     color: #293B5F;
-}
-.datos-personales{
-    font-style: italic;
 }
 section{
     display: block;
