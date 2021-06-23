@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+a:visited{
+    color: white;
+}
+/* ------ Inicio Estilos Header y h2 -------- */ 
+h1, h2, .sobremi{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;    
+    text-transform: uppercase;
+}
+h1{
+    background-color: #293B5F;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+h2, .sobremi{
+    padding-left: 1%;
+    background-color: #47597E;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sobremi{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 15px;
+}
+header{
+    background: #E6E6E6 url(../img/escritorio.jpg) no-repeat center;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.photo-perfil{
+    height: auto;
+    width: 30vh;
+    border-radius: 100%;
+    margin: 2% 90% 2% 10%;
+}
+
+/* ------- Fin estilos Header y h2 ------ */
+
+/* ------ Inicio estilos Body ------ */
+body{
+    background: #DBE6FD;
+}
+li, dd, dt{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0em;
+}
+span{
+    font-weight: 500;
+    color: #293B5F;
+}
+.datos-personales{
+    font-style: italic;
+}
+section{
+    display: block;
+    line-height: 1.5;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/* ------ Fin estilos Body ------*/
+/* ------ Inicio estilo Footer ------*/
+footer{
+    background-color: #B2AB8C;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* ------ Fin estilos Footer ------*/
